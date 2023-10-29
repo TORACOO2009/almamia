@@ -1,0 +1,111 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+a.comprar{
+color: #f4f4f4;
+
+}
+.model{
+width: 200px;
+
+
+
+
+}
+.tt{ color: red; }
+
+/* Estilos específicos para la sección de productos destacados */
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.producto img {
+    max-width: 100%;
+}
+.whatsapp-button{
+align-items: left;
+
+
+}
+
+/* Estilos específicos para la sección "Acerca de Nosotros" */
+.acerca-de {
+    text-align: center;
+}
+
+/* Estilos específicos para la sección de contacto */
+.contacto {
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
